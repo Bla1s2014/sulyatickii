@@ -1,0 +1,63 @@
+body {
+    font-family: serif;
+    background-color: #804515;
+}
+.sales img{
+    width: 150px;
+   }
+   .sales{
+    display: flex;
+   }
+
+.sales p{
+    position: relative;
+    top: 30px;
+    right:100px ;
+}
+.menu article{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 1px;
+}
+.menu div{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:hover{
+    opacity: 0.5;
+    transition: 2s;
+}
+h1{
+    text-align: center;
+}
+div p {
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-bottom: 3px solid beige;
+    font-size: 30px;
+    color: beige;
+    font-family: sans-serif;
+}
+footer{
+    background-color: #5C3317;
+    padding: 10px;
+color:beige;
+font-size: 20px;
+}
+footer img{
+    margin: 20px;
+
+}
+.freddi:hover{
+    transform: scale(2);
+    transition: 3s;
+}
